@@ -1,0 +1,283 @@
+.app-header{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.app-header .header-sun{
+    margin-right: 10px;
+    color: rgb(158 147 249);
+    font-size: 28px;
+}
+
+.viewCard{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+.viewCard .back-icon{
+    height: 20px;
+    padding: 10px 12px;
+}
+
+.viewCard .left-icon{
+    cursor: pointer;
+}
+
+.viewCard .fa-long-arrow-alt-left{
+    font-size: 20px;
+    color: white;
+}
+
+.viewCard .back-icon :hover{
+    text-decoration: none;
+}
+
+.viewCard .top-view .city{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.viewCard .top-view .date{
+    text-align: center;
+    font-size: 12px;
+}
+
+.viewCard .middle-view{
+    padding: 20px 20px;
+}
+
+.viewCard .middle-view .additional-middle{
+    width: 80px;
+}
+
+.viewCard .middle-view .middle-left{
+    margin-left: auto;
+    margin-right: auto;
+    width: 116px;
+    padding: 10px 0px;
+}
+
+.viewCard .middle-view .break-line{
+    width: 2px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.viewCard .middle-view .middle-left .icon{
+    text-align: center;
+    font-size: 40px;
+}
+
+.viewCard .middle-view .middle-left .name{
+    text-align: center;
+    font-size: 14px;
+}
+
+.viewCard .middle-view .middle-right {
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+}
+
+.viewCard .middle-view .middle-right .temp{
+    text-align: center;
+    font-size: 40px;
+}
+
+.viewCard .middle-view .middle-right .temp-min{
+    text-align: center;
+    font-size: 14px;
+}
+
+.viewCard .middle-view .middle-right .temp-max{
+    text-align: center;
+    font-size: 14px;
+}
+
+.viewCard .bottom-view{
+    background-color: #383c38;
+    padding: 20px 0px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.viewCard .bottom-view .b-left-view {
+    margin-left: auto;
+    margin-right: auto;
+    width: 116px;
+    padding: 10px 0px;
+}
+
+.viewCard .bottom-view .b-left-view .b-left-text {
+    font-size: 12px;
+}
+
+.viewCard .bottom-view .b-mid-view {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 0px;
+    width: 116px;
+}
+
+.viewCard .bottom-view .b-mid-view .arrow {
+    font-size: 16px;
+    text-align: center;
+}
+
+.viewCard .bottom-view .b-mid-view .speed {
+    font-size: 12px;
+    text-align: center;
+}
+
+.viewCard .bottom-view .b-right-view {
+    margin-left: auto;
+    margin-right: auto;
+    width: 116px;
+    padding: 15px 0px;
+}
+
+.viewCard .bottom-view .b-right-view .sunset{
+    font-size: 12px;
+    text-align: center;
+}
+.viewCard .bottom-view .b-right-view .sunrise{
+    font-size: 12px;
+    text-align: center;
+}
+
+.bottom-view .break-line{
+    width: 2px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+@media(max-width:1440px){
+    .viewCard {
+        width: 850px;
+    }
+
+    .viewCard .middle-view{
+        padding: 40px 20px;
+    }
+}
+
+@media(max-width:768px){
+    .viewCard {
+        width: 600px;
+    }
+}
+
+@media(max-width:425px){
+    .viewCard{
+        width: 380px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 8px;
+    }
+
+    .viewCard .middle-view {
+        padding: 20px 0px;
+    }
+
+    .row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .viewCard .middle-view .additional-middle {
+        width: 0px;
+    }
+}
+
+@media(max-width:414px){
+    .viewCard{
+        width: 370px;
+    }
+}
+
+@media(max-width: 375px){
+    .viewCard{
+        width: 330px;
+    }
+
+    .viewCard .bottom-view .b-left-view {
+        width: 120px;
+        margin-right: -7px;
+        margin-left: auto;
+    }
+
+    .viewCard .bottom-view .b-left-view .b-left-text{
+        font-size: 10px;
+    }
+
+    .viewCard .bottom-view .b-mid-view {
+        width: 90px;
+        margin-right: 6px;
+        margin-left: 2px;
+    }
+
+    .viewCard .bottom-view .b-right-view {
+        width: 90px;
+        margin-right: auto;
+        margin-right: auto;
+        padding: 24px 0px;
+    }
+    
+    .viewCard .bottom-view .b-mid-view .speed {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .viewCard .bottom-view .b-right-view .sunrise {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .viewCard .bottom-view .b-right-view .sunset {
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 320px){
+    .viewCard {
+        width: 280px;
+    }
+
+    .viewCard .middle-view .middle-right {
+        margin-right: 18px;
+    }
+
+    .viewCard .bottom-view .b-left-view {
+        margin-right: -20px;
+        margin-left: 6px;
+    }
+
+    .viewCard .bottom-view .b-left-view .b-left-text {
+        font-size: 10px;
+    }
+
+    .viewCard .bottom-view .b-mid-view {
+        width: 60px;
+        margin-right: 6px;
+        margin-left: 2px;
+    }
+
+    .viewCard .bottom-view .b-right-view .sunset {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .viewCard .bottom-view .b-right-view .sunrise {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .viewCard .bottom-view .b-right-view {
+        width: 90px;
+        margin-right: auto;
+        margin-right: auto;
+        padding: 10px 0px;
+        margin-left: 5px;
+    }
+}

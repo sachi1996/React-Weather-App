@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .app{
+    background-image: url("../Assets/Cloud_Images/main_cloud.png");
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4 ease-out;
+  }
+  
+  main{
+    min-height: 100vh;
+    padding: 25px;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.75));
+  }
+  
+  .app-header{
+    margin-bottom: 30px;
+  }
+  
+  .app-header .text{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .app-header .header-sun{
+    margin-right: 10px;
+    color: rgb(158 147 249);
+    font-size: 28px;
+  }
+  
+  .search-bar{
+    width: 30%;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .search-bar .search{
+    color: white;
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background-color: rgba(25, 26, 28, 0.65);
+    border-radius: 10px 10px 10px 10px;
+    font-size: 15px;
+    transition: 0.4s ease;
+  }
+
+  ::placeholder{
+    color: #b1acacdb;
+  }
+  
+  .bottom-row{
+    height: 20px;
+  }
+  
+  .row-margin{
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+
+  @media(max-width:2560px){
+    .row-margin{
+        margin-right: 170px;
+        margin-left: 174px;
+    }      
+  }
+
+  @media(max-width:1024px){
+    .row-margin{
+      margin-right: 70px;
+      margin-left: 90px;
+    }
+
+    .search-bar{
+        width: 35%;
+    }
+
+    .search-bar .search{
+        padding: 8px 20px;
+    }
+}
+
+  @media(max-width:768px){
+      .row-margin{
+        margin-right: 150px;
+        margin-left: 150px;
+      }
+
+      .search-bar .search{
+          padding: 6px 20px;
+          font-size: 14px;
+      }
+  }
+
+  @media(max-width: 425px){
+    .row-margin{
+      margin-right: 0px;
+      margin-left: 0px;
+    }
+
+    .search-bar{
+        width: 50%;
+    }
+
+    .search-bar .search{
+        padding: 6px 20px;
+        font-size: 14px;
+    }
+  }
+  
+  @media(max-width: 375px){
+    .row-margin{
+      margin-right: 0px;
+      margin-left: 0px;
+    }
+  
+    .search-bar .search{
+      font-size: 12px;
+    }
+  }
+  
+  @media(max-width: 320px){
+    .search-bar .search{
+      font-size: 10px;
+    }
+  }
